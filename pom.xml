@@ -9,6 +9,8 @@
     <modules>
         <module>mixed-selector</module>
         <module>master-worker</module>
+        <module>netty-demo</module>
+        <module>my-rpc</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -57,7 +59,6 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>mix-selector/src/main/kotlin</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
